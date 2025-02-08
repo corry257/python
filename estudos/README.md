@@ -1,1 +1,1 @@
-inicio dos estudos 
+Irei iniciar aqui um roteiro de estudos, desde o básico até o nível avançado, escrevendo tutoriais e exercícios de fixação. 
