@@ -33,25 +33,25 @@ eles podem ser classificados em categorias fundamentais e compostas.
 
 Principais tipos de dados e como escrever para atribuir valores:
 
-1. Numéricos
+**1. Numéricos**
 Usados para representar números.
 
-class 'int'
-Números inteiros (ex.: 1, 100, -5)
+ class 'int'
+ Números inteiros (ex.: 1, 100, -5)
     x = 10
 
-class 'float'
-Números de ponto flutuante (ex.: 3.14, -0.5)
+ class 'float'
+ Números de ponto flutuante (ex.: 3.14, -0.5)
     x = 3.14
 
 float em Python são usados para representar números decimais, 
 ou seja, números que possuem uma parte inteira e uma parte fracionária separadas por um ponto decimal.
 
-Por exemplo:
+ Por exemplo:
 
- 3.14
- -0.5
- 100.0
+    3.14
+    -0.5
+    100.0
 
 O nome "float" vem de "floating-point" (ponto flutuante), 
 que se refere à forma como esses números são representados internamente no computador.
