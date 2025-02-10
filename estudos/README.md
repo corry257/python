@@ -36,13 +36,11 @@ Principais tipos de dados e como escrever para atribuir valores:
 **1. Numéricos**
 Usados para representar números.
 
- class 'int'
- Números inteiros (ex.: 1, 100, -5)
-    x = 10
+- Números inteiros (ex.: 1, 100, -5)
+     x = 10
 
- class 'float'
- Números de ponto flutuante (ex.: 3.14, -0.5)
-    x = 3.14
+- Números de ponto flutuante (float) (ex.: 3.14, -0.5)
+     x = 3.14
 
 float em Python são usados para representar números decimais, 
 ou seja, números que possuem uma parte inteira e uma parte fracionária separadas por um ponto decimal.
@@ -73,85 +71,72 @@ Enquanto com float:
     x = 0.1 + 0.2
     print(x) # Retorna: 0.30000000000000004 (imprecisão)
 
-class 'complex'
-Números complexos, na forma a + bj (ex.: 3+4j, 1j)
-    x = 1 + 2j
+  Números complexos, na forma a + bj (ex.: 3+4j, 1j)
+     x = 1 + 2j
 
 
-2. Tipos de Texto
+**2. Tipos de Texto**
 Usados para armazenar texto ou sequências de caracteres.
 
-class 'str'
-Cadeias de caracteres ou strings (ex.: "Hello", 'Python')
-    x = "Hello, Python!"
+- Cadeias de caracteres ou strings (ex.: "Hello", 'Python')
+     x = "Hello, Python!"
 
 
-3. Tipos Booleanos
+**3. Tipos Booleanos**
 Representam valores lógicos (verdadeiro ou falso).
 
-class 'bool'
-Verdadeiro (True) ou falso (False)
+- Verdadeiro (True) ou falso (False)
     x = True
     y = False
 
 
-4. Tipos de Sequência
+**4. Tipos de Sequência**
 Representam coleções ordenadas de itens.
 
-class 'list'
-Listas são coleções mutáveis e ordenadas (ex.: [1, 2, 3])
-    x = [1, 2, 3]
+ - classe 'list' - Listas são coleções mutáveis e ordenadas (ex.: [1, 2, 3])
+     x = [1, 2, 3]
 
-class 'tuple'
-Tuplas são coleções imutáveis e ordenadas (ex.: (1, 2, 3))
-    x = (1, 2, 3)
+- classe das Tuplas são coleções imutáveis e ordenadas (ex.: (1, 2, 3))
+     x = (1, 2, 3)
 
-class 'range'
-Intervalos de números, geralmente usados em loops (ex.: range(0, 10))
-    x = range(5)
+- classe 'range' - Intervalos de números, geralmente usados em loops (ex.: range(0, 10))
+     x = range(5)
 
 
-5. Tipos de Mapeamento
+**5. Tipos de Mapeamento**
 Representam pares chave-valor.
 
-class 'dict'
-Dicionários são coleções mutáveis e não ordenadas (ex.: {"chave": "valor"})
-    x = {"name": "Alice", "age": 25}
+  - classe 'dict' - Dicionários são coleções mutáveis e não ordenadas (ex.: {"chave": "valor"})
+     x = {"name": "Alice", "age": 25}
 
 
-6. Tipos de Conjuntos
+**6. Tipos de Conjuntos**
 Representam coleções não ordenadas e únicas de elementos.
 
-class 'set'
-Conjuntos mutáveis, sem elementos duplicados (ex.: {1, 2, 3})
-    x = {1, 2, 3}
+  - classe 'set' - Conjuntos mutáveis, sem elementos duplicados (ex.: {1, 2, 3})
+     x = {1, 2, 3}
 
-class 'frozenset'
-Conjuntos imutáveis, sem elementos duplicados (ex.: frozenset({1, 2, 3}))
-    x = frozenset({1, 2, 3})
+- classe 'frozenset' São conjuntos imutáveis, sem elementos duplicados (ex.: frozenset({1, 2, 3}))
+     x = frozenset({1, 2, 3})
 
 
-7. Tipos Binários
+**7. Tipos Binários**
 Usados para armazenar dados em formato binário.
 
-class 'bytes'
-Bytes são sequências imutáveis de dados binários (ex.: b"data")
-    x = b"Hello"
+- classe 'bytes' - Bytes são sequências imutáveis de dados binários (ex.: b"data")
+     x = b"Hello"
 
-class 'bytearray'
-Bytearray são sequências mutáveis de dados binários (ex.: bytearray(5))
-    x = bytearray(5)
+- classe 'bytearray' - Bytearray são sequências mutáveis de dados binários (ex.: bytearray(5))
+     x = bytearray(5)
 
-class 'memoryview'
-Memoryview fornece uma visualização de objetos binários (ex.: memoryview(bytes(5)))
-    x = memoryview(b"data")
+- classe 'memoryview' - Memoryview fornece uma visualização de objetos binários (ex.: memoryview(bytes(5)))
+     x = memoryview(b"data")
 
 
-8. Tipos Especiais
+**8. Tipos Especiais**
 Usados para representar valores ou objetos especiais.
 
-class 'NoneType'
-NoneType representa a ausência de valor ou None (ex.: x = None)
-    x = None
+ - classe 'NoneType' - NoneType representa a ausência de valor ou None (ex.: x = None)
+     x = None
 
 Esses são os principais tipos de dados em Python!
